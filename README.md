@@ -31,3 +31,7 @@ The project includes a sample CSV file in `sample_data/sample_transactions.csv` 
 ## Future enhancement
 
 The UI already includes a reserved chatbot panel so future conversational finance support can be added without reworking the page layout.
+
+Note: The chatbot/LLM integration is currently disabled in this repository and will show a "coming soon" placeholder. To enable the chatbot later, provide a hosted LLM API key (e.g., OpenAI or Anthropic) in Streamlit Secrets and configure the app to use that provider.
+
+For Streamlit Cloud deployment instructions see STREAMLIT_DEPLOY.md in the repository root. A template for secrets is available at .streamlit/secrets_template.toml (copy to .streamlit/secrets.toml and fill in your keys for local testing — do not commit real keys).
